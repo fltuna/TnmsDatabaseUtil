@@ -14,4 +14,6 @@ Install `TnmsAdministrationPlatform.Shared` from nuget
 dotnet add package MapChooserSharp.API
 ```
 
+Distribute the TnmsDatabaseUtil.Shared.dll with your module. (Do not put in shared folder)
+
 ### TODO
