@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+        <Version>0.0.0</Version>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Copyright>© 2025 faketuna</Copyright>
+        <RepositoryUrl>https://github.com/fltuna/TnmsDatabaseUtil</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>13</LangVersion>
+        <ImplicitUsings>false</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>TnmsDatabaseUtil.Shared</PackageId>
+        <RootNamespace>TnmsDatabaseUtil.Shared</RootNamespace>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="..\LICENSE" Pack="true" PackagePath="\"/>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" ExcludeAssets="runtime" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.9" ExcludeAssets="runtime" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" ExcludeAssets="runtime" />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" ExcludeAssets="runtime" />
+    </ItemGroup>
+</Project>
