@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     
     <PropertyGroup>
-        <Version>0.0.0</Version>
+        <Version>0.0.1</Version>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <Copyright>© 2025 faketuna</Copyright>
         <RepositoryUrl>https://github.com/fltuna/TnmsDatabaseUtil</RepositoryUrl>
